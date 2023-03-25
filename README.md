@@ -17,7 +17,15 @@ with 24-hour turnaround time.
 
 # The OpenROAD 7nm Physical Design Contest
 - More details [Contest Details](https://www.openroaddesigncontest.org/).
-- 
+
+## About OpenROAD
+- OpenROAD delivers open-source and barrier-free VLSI Solutions for RTL-GDSII flow implementation for hardware and software design engineers, enthusiasts and researchers.
+
+- This contest, organized by The OpenROAD Project and VSD, features interesting design challenges at an advanced technology node (7nm).
+
+- Unleash your creativity and skills in the physical design implementation on popular RISC-V based cores using an OpenROAD flow and a VSD-powered cloud.
+
+
 
 
 
