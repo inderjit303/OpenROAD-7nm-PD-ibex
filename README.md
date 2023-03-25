@@ -14,6 +14,14 @@ with 24-hour turnaround time.
 - Our [user guide here](https://openroad-flow-scripts.readthedocs.io/en/latest/user/UserGuide.html).
 - Our [Flow Tutorial here](https://openroad-flow-scripts.readthedocs.io/en/latest/tutorials/FlowTutorial.html).
 
+
+# The OpenROAD 7nm Physical Design Contest
+- More details [Contest Details](https://www.openroaddesigncontest.org/).
+- 
+
+
+
+
 ## Citing this Work
 
 If you use this software in any published work, we would appreciate a citation!
