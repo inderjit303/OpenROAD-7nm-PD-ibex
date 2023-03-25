@@ -101,7 +101,6 @@ cd flow
 make DESIGN_CONFIG=./designs/asap7/ibex/config.mk` 
 ```
 
-
 - Note: this is only for the ibex processor using asap7, other designs will have their other respective design files
 
  - OpenROAD offers an interactive to analyse the generated GDSII and the gui is launched using
@@ -123,7 +122,11 @@ OpenROAD-flow-scripts/flow/results/sky130hd/ibex/base$
 
 ![image](https://user-images.githubusercontent.com/99788755/227724732-c6280df2-b86d-4b86-aaad-2266acb48a6b.png)
 
+## Check MakeFile contents
 
+![image](https://user-images.githubusercontent.com/99788755/227725067-d0eb2fd1-200c-4376-b4c5-2e29382bae95.png)
+
+## 
 
 
 
