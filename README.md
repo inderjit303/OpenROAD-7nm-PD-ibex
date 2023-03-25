@@ -58,8 +58,57 @@ Using any of the following RISC-V cores from the OpenROAD flow-scripts repositor
 
 - More about the OpenROAD Project can be found [here](https://openroad.readthedocs.io/en/latest/main/README.html)
 
+## Installing and setting up ORFS
+
+- The best resource for setting up the toolchain can be found [here](https://openroad-flow-scripts.readthedocs.io/en/latest/user/BuildLocally.html). A shorter version of the steps  is documented below.
+
+-Clone the following repository to install ORFS
+```
+git clone --recursive https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts
+```
+
+-Install dependency using internal script ( It takes care of all the additional packages)
+```
+cd OpenROAD-flow-scripts
+sudo ./etc/DependencyInstaller.sh
+```
+
+- Build & Install ( This  installs all the required scripts and the OpenRoad tool as well)
+```
+./build_openroad.sh --local
+```
+
+- Verify Installation
+
+```
+source ./setup_env.sh
+yosys -help
+openroad -help
+exit
+```
+## Steps for RTL to GDS2 for RISC-V ibex core processor and ASAP7 7nm PDK:
+- To experience OpenROAD Flow scripts, follow the steps below to generate the GDSII files for the `ibex` RISC V processor and the `ASAP7` PDK.
+
+- More about the ibex RISC V processor can be found [here](https://github.com/lowRISC/ibex)
+
+- Change your current directory to the flow directory.
+```
+cd flow
+```
+- Type the following command: 
+
+```
+make DESIGN_CONFIG=./designs/asap7/ibex/config.mk` 
+```
+
+- Note: this is only for the ibex processor using asap7, other designs will have their other respective design files
+
+- That is it !! Output gds is created. 
+
+- With a single command OpenROAD convert the synthesize RTL to GDSII. It took about 30-40 minute  to have the final gds. 
 
 
+ 
 
 
 
