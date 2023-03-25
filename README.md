@@ -128,9 +128,12 @@ OpenROAD-flow-scripts/flow/results/sky130hd/ibex/base$
 ![image](https://user-images.githubusercontent.com/99788755/227725067-d0eb2fd1-200c-4376-b4c5-2e29382bae95.png)
 
 ## Important design/config files 
-
+ - config.mk 
+ - autotuner.json
+ - constraint.sdc
 ![image](https://user-images.githubusercontent.com/99788755/227726632-d3f8b12d-01bd-4c8b-844d-90f1c41546b2.png)
 
+## Config.mk file contents
 
 
 
