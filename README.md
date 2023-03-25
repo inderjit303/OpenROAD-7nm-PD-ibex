@@ -141,6 +141,8 @@ OpenROAD-flow-scripts/flow/results/sky130hd/ibex/base$
 
 ![image](https://user-images.githubusercontent.com/99788755/227729218-938cdb6b-c850-4f5f-a81f-786f9959dd26.png)
 
+## constraint.sdc file contents
+![image](https://user-images.githubusercontent.com/99788755/227729418-65a5ad3e-39f6-449c-b127-80aa85f08a13.png)
 
 
 
