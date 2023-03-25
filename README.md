@@ -26,8 +26,6 @@ Using any of the following RISC-V cores from the OpenROAD-flow-scripts repositor
 ### Problem B: Best Possible Runtime
 Using any of the following RISC-V cores from the OpenROAD flow-scripts repository: RISC-V32i, ibex, swerv_wrapper demonstrate the fastest Runtime from RTL-GDSII with good area and performance. Use cloud resources, suitable design configurations, tool changes (any or all of these) to meet this target. The design must be DRC and LVS clean.
 
-![ORDC-Design-Problem-AB-Flowchart_Final_1st-Mar-2023](https://user-images.githubusercontent.com/99788755/227722819-c89b2a6f-d2c4-4963-b961-3afd2c0d4b5a.jpg)
-
 # Enter OpenROAD 7nm PD Contest
 - This repository is designed to share my learnings and work during the duration of the contest and beyond. 
 
