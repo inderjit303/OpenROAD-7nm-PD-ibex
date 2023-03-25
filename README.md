@@ -103,11 +103,6 @@ make DESIGN_CONFIG=./designs/asap7/ibex/config.mk`
 
 - Note: this is only for the ibex processor using asap7, other designs will have their other respective design files
 
-- That is it !! Output gds is created. 
-
-- With a single command OpenROAD convert the synthesize RTL to GDSII. It took about 30-40 minute  to have the final gds. 
-
-
  - OpenROAD offers an interactive to analyse the generated GDSII and the gui is launched using
 
  ```
@@ -115,6 +110,13 @@ make DESIGN_CONFIG=./designs/asap7/ibex/config.mk`
  ```
 
 ![image](https://user-images.githubusercontent.com/99788755/227724636-0c4b82be-8f08-462e-bdc8-0a44035243a5.png)
+
+- That is it !! Output gds is created. 
+
+- With a single command OpenROAD convert the synthesize RTL to GDSII. It took about 15-20 minutes to have the final gds. 
+
+![image](https://user-images.githubusercontent.com/99788755/227724732-c6280df2-b86d-4b86-aaad-2266acb48a6b.png)
+
 
 
 
