@@ -131,9 +131,18 @@ OpenROAD-flow-scripts/flow/results/sky130hd/ibex/base$
  - config.mk 
  - autotuner.json
  - constraint.sdc
+
 ![image](https://user-images.githubusercontent.com/99788755/227726632-d3f8b12d-01bd-4c8b-844d-90f1c41546b2.png)
 
 ## Config.mk file contents
+
+- Contents of config.mk file 
+- Note: design variables setting with ?= ______ can only be varied. 
+
+![image](https://user-images.githubusercontent.com/99788755/227729218-938cdb6b-c850-4f5f-a81f-786f9959dd26.png)
+
+
+
 
 
 
