@@ -36,11 +36,23 @@ Using any of the following RISC-V cores from the OpenROAD flow-scripts repositor
 
 - My plan is to break the contest into two parts, 
 - **Part 1**: Understanding the ORFS flow on existing RISC-V ibex core using ASAP7 PDK
-- **Part 2**: Improving the best achievable performance for the design for a ibex core on ASAP7
+- **Part 2**: Work on tool improvement i.e Improving the best achievable performance for the design for a ibex core on ASAP7
 
-# Part 1: ORFS tool usuage Experience 
+# Part 1: OpenROAD Flow Scripts (ORFS) tool usuage Experience 
 
-## 
+## OpenROAD & ORFS
+
+- **OpenROAD** is an integrated chip physical design tool that takes a design from from RTL to GDSII, including synthesis, floorplanning, placement, routing, signoff parasitic extraction and timing analysis. 
+
+- It uses a hierarchical placement algorithm that aims to minimize wire length, and it provides several features to optimize timing and power consumption. OpenROAD is designed to be extensible and customizable, with a flexible architecture that allows users to add their own algorithms and features.
+
+- **OpenROAD-flow-scripts(ORFS)** is a flow controller that provides a collection of open-source tools for automated digital ASIC design from synthesis to layout. It provides a fully automated RTL-to-GDSII design flow, which includes Synthesis, Placement and Routing (PnR), STA (Static Timing Analysis), DRC (Design Rule Check) and LVS (Layout Versus Schematic) checks. ORFS aims to provide a flexible and customizable environment for digital ASIC design, allowing users to choose and combine different tools as needed. 
+
+- In ORFS, OpenROAD is used as a plugin for the physical design stage, and it can be configured and customized to meet the specific needs of the design project. The OpenROAD plugin in ORFS provides access to several advanced features, such as hierarchical placement, global routing, and detailed routing optimization.
+
+- ORFS supports several public open sourcePDKs. Available public PDK's are GF180, Skywater130, ASAP7 etc.
+
+- More about the OpenROAD Project can be found [here](https://openroad.readthedocs.io/en/latest/main/README.html)
 
 
 
