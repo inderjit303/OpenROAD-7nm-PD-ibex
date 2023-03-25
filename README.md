@@ -38,6 +38,8 @@ Using any of the following RISC-V cores from the OpenROAD flow-scripts repositor
 - **Part 1**: Understanding the ORFS flow on existing RISC-V ibex core using ASAP7 PDK
 - **Part 2**: Work on tool improvement i.e Improving the best achievable performance for the design for a ibex core on ASAP7
 
+**Problem statement:** To adopt and optimize AutoTuner, an automatic RTL to-GDS hyperparameter tuning framework for OpenROAD-flow-script (ORFS) that leverages the METRICS2.1 infrastructure to meet PPA design goals. Will go for Best performance i.e solving Problem A
+
 # Part 1: OpenROAD Flow Scripts (ORFS) tool usuage Experience 
 
 ## OpenROAD & ORFS
