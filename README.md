@@ -43,14 +43,14 @@ Using any of the following RISC-V cores from the OpenROAD flow-scripts repositor
 ## OpenROAD & ORFS
 
 - **OpenROAD** is an integrated chip physical design tool that takes a design from from RTL to GDSII, including synthesis, floorplanning, placement, routing, signoff parasitic extraction and timing analysis.
- 
-![rtlgds](https://user-images.githubusercontent.com/99788755/227723747-42d1ff3f-a86a-4d03-bf82-e6f5a8cb4ee2.png)
 
 - It uses a hierarchical placement algorithm that aims to minimize wire length, and it provides several features to optimize timing and power consumption. OpenROAD is designed to be extensible and customizable, with a flexible architecture that allows users to add their own algorithms and features.
 
 - OpenROAD is a foundational building block in open-source digital flows like OpenROAD-flow-scripts , OpenLane from Efabless , Silicon Compiler Systems; as well as OpenFASoC for mixed-signal design flows.
 
 - **OpenROAD-flow-scripts(ORFS)** is a flow controller that provides a collection of open-source tools for automated digital ASIC design from synthesis to layout. It provides a fully automated RTL-to-GDSII design flow, which includes Synthesis, Placement and Routing (pnr), Static Timing Analysis (sta), Design Rule Check (drc) and Layout Versus Schematic (lvs) checks. 
+
+![rtlgds](https://user-images.githubusercontent.com/99788755/227723747-42d1ff3f-a86a-4d03-bf82-e6f5a8cb4ee2.png)
 
 - In ORFS, OpenROAD is used as a plugin for the physical design stage, and it can be configured and customized to meet the specific needs of the design project. The OpenROAD plugin in ORFS provides access to several advanced features, such as hierarchical placement, global routing, and detailed routing optimization.
 
