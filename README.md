@@ -34,7 +34,13 @@ Using any of the following RISC-V cores from the OpenROAD flow-scripts repositor
 
 - The best guide can be found at the OpenROAD Flow Scripts tutorial [here](https://openroad-flow-scripts.readthedocs.io/en/latest/tutorials/FlowTutorial.html#introduction)
 
+- My plan is to break the contest into two parts, 
+- **Part 1**: Understanding the ORFS flow on existing RISC-V ibex core using ASAP7 PDK
+- **Part 2**: Improving the best achievable performance for the design for a ibex core on ASAP7
 
+# Part 1: ORFS tool usuage Experience 
+
+## 
 
 
 
