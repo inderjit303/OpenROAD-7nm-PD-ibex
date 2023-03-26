@@ -405,7 +405,42 @@ OpenROAD-flow-scripts/flow/designs/asap7/ibex$ gvim metadata-base-ok.json
 
 ![image](https://user-images.githubusercontent.com/99788755/227797195-f8626bf9-bc7b-42ef-ba7b-71b0e546e155.png)
 
-## AutoTuner 
+# AutoTuner 
+
+- AutoTuner is a “no-human-in-loop” parameter tuning framework for commercial and academic RTL-to-GDS flows. AutoTuner provides a generic interface where users can define parameter configuration as JSON objects. This enables AutoTuner to easily support various tools and flows. 
+- AutoTuner also utilizes METRICS2.1 to capture PPA of individual search trials. With the abundant features of METRICS2.1, users can explore various reward functions that steer the flow autotuning to different PPA goals.
+
+## Main functionalities of AutoTuner
+
+- Automatic hyperparameter tuning framework for OpenROAD-flow-script (ORFS)
+
+- Parametric sweeping experiments for ORFS
+
+- AutoTuner contains top-level Python script for ORFS, each of which implements a different search algorithm
+
+## Installing AutoTuner 
+
+- Before installing AutoTuner, install python 3.9 and pip 3.9 versions 
+
+- Install python 3.9
+
+```
+$ sudo add-apt-repository ppa:deadsnakes/ppa
+$ sudo apt update
+$ sudo apt install python3.9
+``` 
+
+- Install pip3.9 ( tutorial)
+```
+$ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+$ python3.9 get-pip.py
+```
+
+- Install autotuner 
+```
+$ pip3.9 install -U --user 'ray[default,tune]==1.11.0' ax-platform hyperopt nevergrad optuna pandas
+$ pip3.9 install -U --user colorama==0.4.4 bayesian-optimization==1.4.0
+```
 
 
 
