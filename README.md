@@ -442,10 +442,10 @@ $ pip3.9 install -U --user 'ray[default,tune]==1.11.0' ax-platform hyperopt neve
 $ pip3.9 install -U --user colorama==0.4.4 bayesian-optimization==1.4.0
 ```
 
-- Autotuner.json file 
+## Autotuner.json file 
 
 - Autotuner's .json file will be located at
-- 
+
 ```
  OpenROAD-flow-scripts/flow/designs/asap7/ibex$ gvim autotuner.json
 ```
@@ -470,9 +470,21 @@ python3.9 distributed.py --design ibex --platform  asap7 –config ../designs/as
 
 ![image](https://user-images.githubusercontent.com/99788755/227799616-b641e35f-8158-4a0d-9032-4d7708951c10.png)
 
+- Progress is displayed at the terminal where you run, and when all runs are finished, the results are displayed. 
+- You could find the **“Best config found”** on the screen.
 - Output of AutoTuner gives the best parameters for the design configruation and it saves this data in a new .json file as shown below.
--
+
 ![image](https://user-images.githubusercontent.com/99788755/227799704-1f225917-5c40-42e7-88de-b8a35712b541.png)
+
+## TensorBoard GUI
+
+- Install TensorBoard GUI 
+
+```
+$pip3.9 install tensorflow
+$pip3.9 install tensorRT
+$pip3.9 install tensorboard
+```
 
 
 
