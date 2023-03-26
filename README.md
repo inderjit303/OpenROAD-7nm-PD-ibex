@@ -288,6 +288,18 @@ OpenROAD-flow-scripts/flow/logs/asap7/ibex/base
 
 ## OpenROAD GUI exploration: 
 
+- Next, user can view layout in OpenROAD GUI after every stage in steps described below: 
+
+## Post Floorplan stage layout
+
+- To view floor plan in OpenROAD GUI, type the following commands: 
+
+```
+OpenROAD-flow-scripts/flow$ make DESIGN_CONFIG=./designs/asap7/ibex/config.mk gui_floorplan
+```
+
+- Observing Floorplan of ibex using ASPA7
+
 
 
 
