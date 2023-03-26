@@ -486,6 +486,18 @@ $pip3.9 install tensorRT
 $pip3.9 install tensorboard
 ```
 
+- To use TensorBoard GUI, run tensorboard ```--logdir=./<logpath>``` . 
+- While TensorBoard is running, you can open the webpage http://localhost:6006/ to see the GUI.
+
+![image](https://user-images.githubusercontent.com/99788755/227800145-33a98c14-411e-4001-a609-24f960e9ceb1.png)
+
+- Selecting HPARAMs in Tensorboard for viewing hyperparmeters 
+
+![image](https://user-images.githubusercontent.com/99788755/227800181-80f9b679-a74b-4886-b847-30b8ab3cd8e1.png)
+
+- Selecting Parallel Coordinates View in Tensorboard to view the best SDC_CLK_PERIOD for instance 
+
+![image](https://user-images.githubusercontent.com/99788755/227800254-5c04150e-0537-4d33-b47a-09c28dc1f245.png)
 
 
 
