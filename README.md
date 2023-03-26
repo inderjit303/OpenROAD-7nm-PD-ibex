@@ -442,6 +442,36 @@ $ pip3.9 install -U --user 'ray[default,tune]==1.11.0' ax-platform hyperopt neve
 $ pip3.9 install -U --user colorama==0.4.4 bayesian-optimization==1.4.0
 ```
 
+- Autotuner.json file 
+
+- Autotuner's .json file will be located at
+- 
+```
+ OpenROAD-flow-scripts/flow/designs/asap7/ibex$ gvim autotuner.json
+```
+
+- Autotuner.json file contents are shown below
+
+![image](https://user-images.githubusercontent.com/99788755/227798941-5fae11a5-54cc-480a-a1e6-55ebac1fa309.png)
+
+## Running AutoTuner 
+
+- First step is to change the directory to 
+
+```
+OpenROAD-flow-scripts/flow/util
+```
+
+- Command to run Autotuner, for ibex core processor using ASP7 pdk ( this process take around 15-20 minutes dependency on machine configuration) 
+
+```
+python3.9 distributed.py --design ibex --platform  asap7 –config ../designs/asap7/ibex/autotuner.json  tune
+```
+
+![image](https://user-images.githubusercontent.com/99788755/227799616-b641e35f-8158-4a0d-9032-4d7708951c10.png)
+
+
+
 
 
 # End of Part 1: OpenROAD Flow Scripts (ORFS) tool usuage Experience
