@@ -257,8 +257,17 @@ OpenROAD-flow-scripts/flow/logs/asap7/ibex/base
 
 ### KLAYOUT VIEW OF 6_final.gds for ibex core using ASAP7 
 
+- Klayout view can be invoked by following command 
+
+```
+/OpenROAD-flow-scripts/flow/results/asap7/ibex/base$ klayout 6_final.gds
+```
+
 ![image](https://user-images.githubusercontent.com/99788755/227791921-e7c8e48e-cd94-4604-881b-8ce947771287.png)
 
+- Expanded klayout view
+
+![image](https://user-images.githubusercontent.com/99788755/227792349-60fa8faa-0b04-4ef1-892b-e8bd1f852b6f.png)
 
 
 
