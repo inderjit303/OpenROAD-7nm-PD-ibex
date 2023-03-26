@@ -362,7 +362,7 @@ OpenROAD-flow-scripts/flow$ make DESIGN_CONFIG=./designs/asap7/ibex/config.mk gu
 ![image](https://user-images.githubusercontent.com/99788755/227795709-0f2bcb91-d257-445b-a130-61e7d470567c.png)
 
 - Routing layout with congestion density (using heatmap) 
-- 
+
 ![image](https://user-images.githubusercontent.com/99788755/227796793-6cacf412-b046-4598-bdd3-a4cefca8fd5e.png)
 
 
