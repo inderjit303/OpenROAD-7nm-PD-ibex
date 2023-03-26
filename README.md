@@ -136,27 +136,36 @@ OpenROAD-flow-scripts/flow/results/sky130hd/ibex/base$
 
 ## Config.mk file contents
 
-- Contents of config.mk file 
+- Contents of config.mk file, which is the default design configuration of ibex core 
+
 - Note: Design flow variables setting with ?= ______ can only be varied. 
 
 ![image](https://user-images.githubusercontent.com/99788755/227729218-938cdb6b-c850-4f5f-a81f-786f9959dd26.png)
 
 ## constraint.sdc file contents
 
+- The timing constraints are specified in this file 
+
 ![image](https://user-images.githubusercontent.com/99788755/227729418-65a5ad3e-39f6-449c-b127-80aa85f08a13.png)
 
 ## Synthesis script tcl file contents 
 
-- The OpenROAD Flow starts with a flow configuration file (config.mk), the chosen platform (asap7) and the Verilog files of ibex core. 
+- The OpenROAD Flow starts with a flow configuration file (config.mk), the chosen platform (asap7) and the Verilog files (ibex_core.v) of ibex core. 
 
 - From them, synthesis is run using Yosys to find the appropriate circuit implementation from the available cells in the platform.
 
 ![image](https://user-images.githubusercontent.com/99788755/227782586-69ffe878-1564-4c13-a444-a162ade7591d.png)
 
+## Power Grid tcl file 
+
+- Power frid strategy .tcl file containts information on various signal, input and supply power constraints. 
+
+![image](https://user-images.githubusercontent.com/99788755/227783605-d57e9440-90d2-421b-8ed3-2ebb8e721152.png)
+
 
 ## Log files locations 
 
-- Log files contains useful information of every stage of ORFS
+- Log directory, which contains log files of every stage of ORFS. 
 - Below is the image of location and various Log files of ibex core processor using ASAP7 PDK 
 - Type the following command to view all logs: 
 ```
@@ -164,6 +173,33 @@ OpenROAD-flow-scripts/flow/logs/asap7/ibex/base
 ```
 
 ![image](https://user-images.githubusercontent.com/99788755/227782282-2f6eb5f9-3135-4b7d-b45f-1b4d6b391ee5.png)
+
+## Yosys.log contents 
+
+![image](https://user-images.githubusercontent.com/99788755/227784952-75d87227-597f-4327-af46-b1aa551dca4b.png)
+
+## Floorplan.log contents 
+
+![image](https://user-images.githubusercontent.com/99788755/227785031-d1bf225b-7ce9-4e74-aeb9-2f85f99661b9.png)
+
+- Within floorplan log file, observe worst negative slack wns, total negative slack tns, worst slack
+
+- Negative Slack (NS): Negative slack is the amount of time by which a signal arrives later than it is required to arrive at a particular point in the circuit. It is calculated as the difference between the required arrival time and the actual arrival time of a signal. A negative slack value indicates that the circuit is not meeting its timing requirements and may result in timing violations.
+
+- Worst Negative Slack (WNS): Worst negative slack (WNS) is the most negative value of the slack across all paths in the circuit. It represents the worst-case timing violation in the circuit.
+
+- Total Negative Slack (TNS): Total negative slack (TNS) is the sum of all the negative slack values across all paths in the circuit. It represents the overall timing violation in the circuit.
+
+![image](https://user-images.githubusercontent.com/99788755/227785207-c10766a6-6fab-48ad-bd70-43930d593864.png)
+
+- Floorplan.log file also contains elaborated timing report for the each timing path
+
+![image](https://user-images.githubusercontent.com/99788755/227785284-a683f6cc-af73-47f4-b3f4-97d8ceae1681.png)
+
+- 
+
+
+
 
 
 
