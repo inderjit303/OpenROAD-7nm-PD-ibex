@@ -302,6 +302,15 @@ OpenROAD-flow-scripts/flow$ make DESIGN_CONFIG=./designs/asap7/ibex/config.mk gu
 
 ![image](https://user-images.githubusercontent.com/99788755/227794163-71660d50-c025-4fbd-8bc4-f94b8cd6cdb5.png)
 
+- Exploring I/O pins in floorplan layout 
+
+![image](https://user-images.githubusercontent.com/99788755/227796382-af87318f-233c-4355-a8b5-2c6950c1583c.png)
+
+- Selective selection of layers with Hierarchical Browser view (only metal 4 selected for instance) 
+
+![image](https://user-images.githubusercontent.com/99788755/227796510-0021b0bf-25cf-4ee0-a6b6-cfa666031104.png)
+
+
 ## Placement stage layout
 
 - To view placement stage in OpenROAD GUI, type the following commands: 
@@ -314,6 +323,11 @@ OpenROAD-flow-scripts/flow$ make DESIGN_CONFIG=./designs/asap7/ibex/config.mk gu
 
 ![image](https://user-images.githubusercontent.com/99788755/227795478-2d5b5454-a101-447f-b460-4437267ef4aa.png)
 
+- Placement density view using heatmap
+
+![image](https://user-images.githubusercontent.com/99788755/227796606-b73e338f-f624-41aa-9f00-179c5db3dd76.png)
+
+
 ## CTS stage layout
 
 - To view CTS stage in OpenROAD GUI, type the following commands: 
@@ -325,6 +339,14 @@ OpenROAD-flow-scripts/flow$ make DESIGN_CONFIG=./designs/asap7/ibex/config.mk gu
 - Observing CTS stage layout of ibex core using ASPA7 (cts route usign heatmap)
 
 ![image](https://user-images.githubusercontent.com/99788755/227795586-5b168722-b0e8-4912-8847-ff94489621fc.png)
+
+- CTS layout with clock tree view 
+
+![image](https://user-images.githubusercontent.com/99788755/227796675-94dca7e9-4281-49c7-ac79-b3055c5dcd6a.png)
+
+- CTS stage layout with clock tree view and sample and hold time details under timing report section
+
+![image](https://user-images.githubusercontent.com/99788755/227796724-fe7b65b0-ed49-4c2e-ac67-2bcb0da392d0.png)
 
 
 ## Routing stage layout
@@ -339,6 +361,11 @@ OpenROAD-flow-scripts/flow$ make DESIGN_CONFIG=./designs/asap7/ibex/config.mk gu
 
 ![image](https://user-images.githubusercontent.com/99788755/227795709-0f2bcb91-d257-445b-a130-61e7d470567c.png)
 
+- Routing layout with congestion density (using heatmap) 
+- 
+![image](https://user-images.githubusercontent.com/99788755/227796793-6cacf412-b046-4598-bdd3-a4cefca8fd5e.png)
+
+
 ## Final stage layout
 
 - To view final stage in OpenROAD GUI, type the following commands: 
@@ -349,12 +376,18 @@ OpenROAD-flow-scripts/flow$ make DESIGN_CONFIG=./designs/asap7/ibex/config.mk gu
 
 - Observing final stage layout of ibex using ASPA7
 
-
 ![image](https://user-images.githubusercontent.com/99788755/227795780-2bcc9f3e-198f-472a-a6aa-c533d1583f72.png)
 
 - Observing explanded view of final stage layout of ibex core using ASPA7
-- 
+
 ![image](https://user-images.githubusercontent.com/99788755/227795825-e74d149a-9f72-4674-89f2-39acda00997d.png)
+
+- Core clock path view in final layout with timing details under Timing report section in OpenROAD GUI 
+
+![image](https://user-images.githubusercontent.com/99788755/227796236-363df459-4cfc-415d-a4a5-f1e93258d581.png)
+
+
+
 
 
 # End of Part 1: OpenROAD Flow Scripts (ORFS) tool usuage Experience
