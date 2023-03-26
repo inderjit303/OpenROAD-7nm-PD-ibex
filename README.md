@@ -35,7 +35,7 @@ Using any of the following RISC-V cores from the OpenROAD flow-scripts repositor
 - **Part 1**: Understanding the ORFS flow on existing RISC-V ibex core using ASAP7 PDK
 - **Part 2**: Work on tool improvement i.e Improving the best achievable performance for the design for a ibex core on ASAP7
 
-# **Problem statement:** 
+# **Problem statement for Part 2:** 
 1. To use AutoTuner, an automatic RTL to-GDS hyperparameter tuning framework for OpenROAD-flow-script (ORFS) that leverages the METRICS2.1 infrastructure to meet PPA design goals. Will go for Best performance i.e solving Problem A. Best parameters generated will be fed to config.mk to optimize the performance. 
 2. To work on flow control parameters in config.mk file aim to reduce the congestion in GDS2 layout in OpenROAD GUI.
 
@@ -270,10 +270,27 @@ OpenROAD-flow-scripts/flow/logs/asap7/ibex/base
 ![image](https://user-images.githubusercontent.com/99788755/227792349-60fa8faa-0b04-4ef1-892b-e8bd1f852b6f.png)
 
 
+## Checking Reports for final design 
 
+- At the end, ORFS will output its logs under ```flow/reports/```, and its results under ```flow/results/```
 
+### Routing report (route_drc.rpt)
+
+- Since there are no DRC violation in the final ibex core design using ASPA7 7nm PDK, routing report is empty 
+
+![image](https://user-images.githubusercontent.com/99788755/227792660-8a4d3c66-b1ab-4f44-9c28-fe509e8e3156.png)
+
+### Synthesis statistics (synth_stat.txt)
+
+![image](https://user-images.githubusercontent.com/99788755/227792804-d463725b-2db0-4092-9548-210e4cb3bbcd.png)
+
+![image](https://user-images.githubusercontent.com/99788755/227792859-e8650930-e95f-4e09-8fdc-42ebf845d3e0.png)
+
+## OpenROAD GUI exploration: 
 
 # End of Part 1: OpenROAD Flow Scripts (ORFS) tool usuage Experience
+
+
 
 
 
