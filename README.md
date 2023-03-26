@@ -137,12 +137,47 @@ OpenROAD-flow-scripts/flow/results/sky130hd/ibex/base$
 ## Config.mk file contents
 
 - Contents of config.mk file 
-- Note: design variables setting with ?= ______ can only be varied. 
+- Note: Design flow variables setting with ?= ______ can only be varied. 
 
 ![image](https://user-images.githubusercontent.com/99788755/227729218-938cdb6b-c850-4f5f-a81f-786f9959dd26.png)
 
 ## constraint.sdc file contents
+
 ![image](https://user-images.githubusercontent.com/99788755/227729418-65a5ad3e-39f6-449c-b127-80aa85f08a13.png)
+
+## Synthesis script tcl file contents 
+
+- The OpenROAD Flow starts with a flow configuration file (config.mk), the chosen platform (asap7) and the Verilog files of ibex core. 
+
+- From them, synthesis is run using Yosys to find the appropriate circuit implementation from the available cells in the platform.
+
+![image](https://user-images.githubusercontent.com/99788755/227782586-69ffe878-1564-4c13-a444-a162ade7591d.png)
+
+
+## Log files locations 
+
+- Log files contains useful information of every stage of ORFS
+- Below is the image of location and various Log files of ibex core processor using ASAP7 PDK 
+- Type the following command to view all logs: 
+```
+OpenROAD-flow-scripts/flow/logs/asap7/ibex/base
+```
+
+![image](https://user-images.githubusercontent.com/99788755/227782282-2f6eb5f9-3135-4b7d-b45f-1b4d6b391ee5.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
