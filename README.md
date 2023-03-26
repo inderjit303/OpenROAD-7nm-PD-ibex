@@ -244,7 +244,7 @@ OpenROAD-flow-scripts/flow/logs/asap7/ibex/base
 
 - **Area and Core Utilization**: Design area and its core utilization is visible at the end of final report log. 
 
-# ***********************************Part 1: OpenROAD Flow Scripts (ORFS) tool usuage Experience**************************
+# End of Part 1: OpenROAD Flow Scripts (ORFS) tool usuage Experience
 
 
 
