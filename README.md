@@ -244,6 +244,26 @@ OpenROAD-flow-scripts/flow/logs/asap7/ibex/base
 
 - **Area and Core Utilization**: Design area and its core utilization is visible at the end of final report log. 
 
+## Final GDS view using klayout
+
+- Final GDS is located as shown in the command below
+
+```
+/OpenROAD-flow-scripts/flow/results/asap7/ibex/base
+```
+
+![image](https://user-images.githubusercontent.com/99788755/227790627-c293434d-8640-4cc8-a582-8245561d3988.png)
+
+
+### KLAYOUT VIEW OF 6_final.gds for ibex core using ASAP7 
+
+![image](https://user-images.githubusercontent.com/99788755/227791921-e7c8e48e-cd94-4604-881b-8ce947771287.png)
+
+
+
+
+
+
 # End of Part 1: OpenROAD Flow Scripts (ORFS) tool usuage Experience
 
 
