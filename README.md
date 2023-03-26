@@ -186,9 +186,9 @@ OpenROAD-flow-scripts/flow/logs/asap7/ibex/base
 
 - Negative Slack (NS): Negative slack is the amount of time by which a signal arrives later than it is required to arrive at a particular point in the circuit. It is calculated as the difference between the required arrival time and the actual arrival time of a signal. A negative slack value indicates that the circuit is not meeting its timing requirements and may result in timing violations.
 
-- Worst Negative Slack (WNS): Worst negative slack (WNS) is the most negative value of the slack across all paths in the circuit. It represents the worst-case timing violation in the circuit.
+- Worst Negative Slack (WNS): Worst negative slack (WNS) is the most negative value of the slack across all paths in the circuit. It represents the worst-case timing violation in the design.
 
-- Total Negative Slack (TNS): Total negative slack (TNS) is the sum of all the negative slack values across all paths in the circuit. It represents the overall timing violation in the circuit.
+- Total Negative Slack (TNS): Total negative slack (TNS) is the sum of all the negative slack values across all paths in the circuit. It represents the overall timing violation in the design.
 
 ![image](https://user-images.githubusercontent.com/99788755/227785207-c10766a6-6fab-48ad-bd70-43930d593864.png)
 
@@ -196,7 +196,9 @@ OpenROAD-flow-scripts/flow/logs/asap7/ibex/base
 
 ![image](https://user-images.githubusercontent.com/99788755/227785284-a683f6cc-af73-47f4-b3f4-97d8ceae1681.png)
 
-- 
+## CTS log file contents 
+
+![image](https://user-images.githubusercontent.com/99788755/227786319-84f58f16-c844-46ad-9031-2bd4c9243fa5.png)
 
 
 
