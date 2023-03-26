@@ -158,7 +158,7 @@ OpenROAD-flow-scripts/flow/results/sky130hd/ibex/base$
 
 ## Power Grid tcl file 
 
-- Power frid strategy .tcl file containts information on various signal, input and supply power constraints. 
+- Power frid strategy .tcl file contains information on various signal, input and supply power constraints. 
 
 ![image](https://user-images.githubusercontent.com/99788755/227783605-d57e9440-90d2-421b-8ed3-2ebb8e721152.png)
 
@@ -180,6 +180,8 @@ OpenROAD-flow-scripts/flow/logs/asap7/ibex/base
 
 ## Floorplan.log contents 
 
+- Floorplan for the physical design is generated with OpenROAD, which requires a description of the power delivery network (in pdn.tcl).
+
 ![image](https://user-images.githubusercontent.com/99788755/227785031-d1bf225b-7ce9-4e74-aeb9-2f85f99661b9.png)
 
 - Within floorplan log file, observe worst negative slack wns, total negative slack tns, worst slack
@@ -199,6 +201,20 @@ OpenROAD-flow-scripts/flow/logs/asap7/ibex/base
 ## CTS log file contents 
 
 ![image](https://user-images.githubusercontent.com/99788755/227786319-84f58f16-c844-46ad-9031-2bd4c9243fa5.png)
+
+## Routing
+
+- Routing is also divided into two phases: global routing and detailed routing. 
+
+### FastRouting log contents (Global routing)
+
+![image](https://user-images.githubusercontent.com/99788755/227786630-0c577ca8-e87d-4d3b-ad6b-71657e87d27c.png)
+
+### Triton.log contents (Detailed routing)
+
+![image](https://user-images.githubusercontent.com/99788755/227786719-a3e9505f-f4cc-4815-b205-67a09da22b1f.png)
+
+
 
 
 
