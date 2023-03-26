@@ -298,10 +298,9 @@ OpenROAD-flow-scripts/flow/logs/asap7/ibex/base
 OpenROAD-flow-scripts/flow$ make DESIGN_CONFIG=./designs/asap7/ibex/config.mk gui_floorplan
 ```
 
-- Observing Floorplan of ibex using ASPA7
+- Observing Floorplan layout of ibex using ASPA7
 
 ![image](https://user-images.githubusercontent.com/99788755/227794163-71660d50-c025-4fbd-8bc4-f94b8cd6cdb5.png)
-
 
 
 # End of Part 1: OpenROAD Flow Scripts (ORFS) tool usuage Experience
