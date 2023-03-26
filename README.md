@@ -290,22 +290,71 @@ OpenROAD-flow-scripts/flow/logs/asap7/ibex/base
 
 - Next, user can view layout in OpenROAD GUI after every stage in steps described below: 
 
-## Post Floorplan stage layout
+## Floorplan stage layout
 
-- To view floor plan in OpenROAD GUI, type the following commands: 
+- To view floorplan in OpenROAD GUI, type the following commands: 
 
 ```
 OpenROAD-flow-scripts/flow$ make DESIGN_CONFIG=./designs/asap7/ibex/config.mk gui_floorplan
 ```
 
-- Observing Floorplan layout of ibex using ASPA7
+- Observing Floorplan stage layout of ibex core using ASPA7
 
 ![image](https://user-images.githubusercontent.com/99788755/227794163-71660d50-c025-4fbd-8bc4-f94b8cd6cdb5.png)
 
+## Placement stage layout
+
+- To view placement stage in OpenROAD GUI, type the following commands: 
+
+```
+OpenROAD-flow-scripts/flow$ make DESIGN_CONFIG=./designs/asap7/ibex/config.mk gui_place
+```
+
+- Observing Placement stage layout of ibex core using ASPA7
+
+![image](https://user-images.githubusercontent.com/99788755/227795478-2d5b5454-a101-447f-b460-4437267ef4aa.png)
+
+## CTS stage layout
+
+- To view CTS stage in OpenROAD GUI, type the following commands: 
+
+```
+OpenROAD-flow-scripts/flow$ make DESIGN_CONFIG=./designs/asap7/ibex/config.mk gui_cts
+```
+
+- Observing CTS stage layout of ibex core using ASPA7 (cts route usign heatmap)
+
+![image](https://user-images.githubusercontent.com/99788755/227795586-5b168722-b0e8-4912-8847-ff94489621fc.png)
 
 
+## Routing stage layout
+
+- To view routing stage in OpenROAD GUI, type the following commands: 
+
+```
+OpenROAD-flow-scripts/flow$ make DESIGN_CONFIG=./designs/asap7/ibex/config.mk gui_route
+```
+
+- Observing routing stage layout of ibex core using ASPA7
+
+![image](https://user-images.githubusercontent.com/99788755/227795709-0f2bcb91-d257-445b-a130-61e7d470567c.png)
+
+## Final stage layout
+
+- To view final stage in OpenROAD GUI, type the following commands: 
+
+```
+OpenROAD-flow-scripts/flow$ make DESIGN_CONFIG=./designs/asap7/ibex/config.mk gui_final
+```
+
+- Observing final stage layout of ibex using ASPA7
 
 
+![image](https://user-images.githubusercontent.com/99788755/227795780-2bcc9f3e-198f-472a-a6aa-c533d1583f72.png)
+
+- Observing explanded view of final stage layout of ibex core using ASPA7
+- 
+![image](https://user-images.githubusercontent.com/99788755/227795825-e74d149a-9f72-4674-89f2-39acda00997d.png)
 
 
 # End of Part 1: OpenROAD Flow Scripts (ORFS) tool usuage Experience
