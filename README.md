@@ -386,7 +386,26 @@ OpenROAD-flow-scripts/flow$ make DESIGN_CONFIG=./designs/asap7/ibex/config.mk gu
 
 ![image](https://user-images.githubusercontent.com/99788755/227796236-363df459-4cfc-415d-a4a5-f1e93258d581.png)
 
+## Checking Metadata for ibex core using ASAP7 
 
+- Use the following command to view Metadata for ibex core using ASAP7 
+
+```
+OpenROAD-flow-scripts/flow$ make DESIGN_CONFIG=./designs/asap7/ibex/config.mk metadata 
+```
+![image](https://user-images.githubusercontent.com/99788755/227797108-c7154ca0-ff6c-4fb3-a2d0-60c4561c5fcc.png)
+
+![image](https://user-images.githubusercontent.com/99788755/227797131-716e583a-5ed3-48a5-81ab-fb9d59daf0f7.png)
+
+- To update metadata in OpenROAD, use the following command 
+
+```
+OpenROAD-flow-scripts/flow/designs/asap7/ibex$ gvim metadata-base-ok.json
+```
+
+![image](https://user-images.githubusercontent.com/99788755/227797195-f8626bf9-bc7b-42ef-ba7b-71b0e546e155.png)
+
+## AutoTuner 
 
 
 
