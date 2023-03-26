@@ -462,7 +462,7 @@ $ pip3.9 install -U --user colorama==0.4.4 bayesian-optimization==1.4.0
 OpenROAD-flow-scripts/flow/util
 ```
 
-- Command to run Autotuner, for ibex core processor using ASP7 pdk ( this process take around 15-20 minutes dependency on machine configuration) 
+- Command to run Autotuner, for ibex core processor using ASP7 pdk ( this process take around 15-20 minutes depending upon machine configuration) 
 
 ```
 python3.9 distributed.py --design ibex --platform  asap7 –config ../designs/asap7/ibex/autotuner.json  tune
@@ -470,6 +470,9 @@ python3.9 distributed.py --design ibex --platform  asap7 –config ../designs/as
 
 ![image](https://user-images.githubusercontent.com/99788755/227799616-b641e35f-8158-4a0d-9032-4d7708951c10.png)
 
+- Output of AutoTuner gives the best parameters for the design configruation and it saves this data in a new .json file as shown below.
+-
+![image](https://user-images.githubusercontent.com/99788755/227799704-1f225917-5c40-42e7-88de-b8a35712b541.png)
 
 
 
