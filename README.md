@@ -214,6 +214,39 @@ OpenROAD-flow-scripts/flow/logs/asap7/ibex/base
 
 ![image](https://user-images.githubusercontent.com/99788755/227786719-a3e9505f-f4cc-4815-b205-67a09da22b1f.png)
 
+![image](https://user-images.githubusercontent.com/99788755/227786814-d63f5024-8de6-4dd2-97d1-2ab4a916b89b.png)
+
+## Merge log contents 
+
+![image](https://user-images.githubusercontent.com/99788755/227786861-30ea1af8-864f-4961-a83c-4a98899c4904.png)
+
+## Final report log contents 
+
+![image](https://user-images.githubusercontent.com/99788755/227787096-081787f9-6280-4757-b5a8-977f6b4a74af.png)
+
+- Timing violations details in final report 
+
+![image](https://user-images.githubusercontent.com/99788755/227787142-2f8f9ad1-3d72-469d-ab55-7a5a9726f58c.png)
+
+## Final Power report
+
+- Final Power report are observed within the final report log file. 
+
+![image](https://user-images.githubusercontent.com/99788755/227787258-c2d4f8d0-e814-4e2c-aa8c-83d0d214d468.png)
+
+- **Sequential Power Usage**: Sequential power usage refers to the power consumed by the flip-flops and latches in a circuit. These elements store the state of the circuit, so they consume power even when the circuit is not actively switching.
+
+- **Combinational Power Usage**: Combinational power usage refers to the power consumed by the logic gates and interconnects in a circuit. These elements do not store any state, so they only consume power when the circuit is actively switching.
+
+- **Macro Power Usage**: Macro power usage refers to the power consumed by large IP blocks or subcircuits in the design. These blocks are typically provided by third-party vendors and can have a significant impact on the overall power consumption of the chip.
+
+- **Pad Power Usage**: Pad power usage refers to the power consumed by the input/output (I/O) pads of the chip. These pads interface the chip with the outside world and are typically designed to meet specific electrical standards.
+
+- **Area and Core Utilization**: Design area and its core utilization is visible at the end of final report log. 
+
+
+
+
 
 
 
