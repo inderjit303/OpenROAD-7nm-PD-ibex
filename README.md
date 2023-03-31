@@ -35,10 +35,6 @@ Using any of the following RISC-V cores from the OpenROAD flow-scripts repositor
 - **Part 1**: Understanding the ORFS flow on existing RISC-V ibex core using ASAP7 PDK
 - **Part 2**: Work on tool improvement i.e Improving the best achievable performance for the design for a ibex core on ASAP7
 
-# **Problem statement for Part 2:** 
-1. To use AutoTuner, an automatic RTL to-GDS hyperparameter tuning framework for OpenROAD-flow-script (ORFS) that leverages the METRICS2.1 infrastructure to meet PPA design goals. Will go for Best performance i.e solving Problem A. Best parameters generated will be fed to config.mk to optimize the performance. 
-2. To work on flow control parameters in config.mk file aim to reduce the congestion in GDS2 layout in OpenROAD GUI.
-
 # Part 1: OpenROAD Flow Scripts (ORFS) tool usuage Experience 
 
 ## OpenROAD & ORFS
@@ -499,9 +495,23 @@ $pip3.9 install tensorboard
 
 ![image](https://user-images.githubusercontent.com/99788755/227800254-5c04150e-0537-4d33-b47a-09c28dc1f245.png)
 
-
-
 # End of Part 1: OpenROAD Flow Scripts (ORFS) tool usuage Experience
+
+
+# **Problem statement for Part 2:** 
+1. To use AutoTuner, an automatic RTL to-GDS hyperparameter tuning framework for OpenROAD-flow-script (ORFS) that leverages the METRICS2.1 infrastructure to meet PPA design goals. Will go for Best performance i.e solving Problem A. Best parameters generated will be fed to config.mk to optimize the performance. 
+2. To work on flow control parameters in config.mk file aim to reduce the congestion in GDS2 layout in OpenROAD GUI.
+
+
+## Use of Autotuner and METRIC2.1 data 
+
+Tunable tool and design parameter are adopted from https://vlsicad.ucsd.edu/Publications/Conferences/388/c388.pdf
+
+![image](https://user-images.githubusercontent.com/99788755/229158592-f2e097f3-f6d8-4b66-95ce-abbbb259f03e.png)
+
+
+
+
 
 
 
