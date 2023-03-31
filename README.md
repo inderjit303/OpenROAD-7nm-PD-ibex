@@ -636,11 +636,153 @@ export DFF_LIB_FILE           = $($(CORNER)_DFF_LIB_FIL
 ```
 
 
+## **Contents of config.mk (AFTER)**
+```
+export PLATFORM               = asap7
 
+export DESIGN_NICKNAME        = ibex
+export DESIGN_NAME            = ibex_core
 
+export VERILOG_FILES         = $(sort $(wildcard ./designs/src/$(DESIGN_NICKNAME)/*.v))
+export SDC_FILE              = ./designs/$(PLATFORM)/$(DESIGN_NICKNAME)/constraint.sdc
 
+# export CORE_UTILIZATION       =  40
+# export CORE_ASPECT_RATIO      = 1
+# export CORE_MARGIN            = 2
+# export PLACE_DENSITY_LB_ADDON  = 0.2
 
+export _SDC_CLOCK_PERIOD = 720.8533289764972
+export CORE_UTILIZATION = 34
+export CORE_ASPECT_RATIO = 0.6380766311390134
+export CORE_MARGIN = 2
+export CELL_PAD_IN_SITES_GLOBAL_PLACEMENT = 2
+export CELL_PAD_IN_SITES_DETAIL_PLACEMENT = 2
+export _FR_LAYER_ADJUST = 0.53295523082508
+export PLACE_DENSITY_LB_ADDON = 0.2
+export _PINS_DISTANCE = 1
+export CTS_CLUSTER_SIZE = 30
+export CTS_CLUSTER_DIAMETER = 100
+export FLATTEN = 1
+export _FR_FILE_PATH = ""
+export _FR_GR_OVERFLOW" = 1
+export ENABLE_DPO = 0
 
+export DFF_LIB_FILE           = $($(CORNER)_DFF_LIB_FILE)
+```
+
+## Contents of AutoTuner.json (AFTER)
+
+```
+{
+    "_SDC_FILE_PATH": "constraint.sdc",
+    "_SDC_CLOCK_PERIOD": {
+        "type": "float",
+        "minmax": [
+            100,
+            2000
+        ],
+        "step": 0
+    },
+    "CORE_UTILIZATION": {
+        "type": "int",
+        "minmax": [
+            20,
+            99
+        ],
+        "step": 1
+    },
+    "CORE_ASPECT_RATIO": {
+        "type": "float",
+        "minmax": [
+            0.1,
+            2.0
+        ],
+        "step": 0
+    },
+    "CORE_MARGIN": {
+        "type": "int",
+        "minmax": [
+            2.0,
+            2.0
+        ],
+        "step": 0
+    },
+    "CELL_PAD_IN_SITES_GLOBAL_PLACEMENT": {
+        "type": "int",
+        "minmax": [
+            0,
+            4
+        ],
+        "step": 1
+    },
+    "CELL_PAD_IN_SITES_DETAIL_PLACEMENT": {
+        "type": "int",
+        "minmax": [
+            0,
+            4
+        ],
+        "step": 1
+    },
+    "_FR_LAYER_ADJUST": {
+        "type": "float",
+        "minmax": [
+            0.1,
+            0.7
+        ],
+        "step": 0
+    },
+    "PLACE_DENSITY_LB_ADDON": {
+        "type": "float",
+        "minmax": [
+            0.0,
+            0.99
+        ],
+        "step": 0
+    },
+    "FLATTEN": {
+        "type": "int",
+        "minmax": [
+            0,
+            1
+        ],
+        "step": 1
+    },
+    "_PINS_DISTANCE": {
+        "type": "int",
+        "minmax": [
+            1,
+            3
+        ],
+        "step": 1
+    },
+    "CTS_CLUSTER_SIZE": {
+        "type": "int",
+        "minmax": [
+            10,
+            40
+        ],
+        "step": 1
+    },
+    "CTS_CLUSTER_DIAMETER": {
+        "type": "int",
+        "minmax": [
+            80,
+            120
+        ],
+        "step": 1
+    },
+    "_FR_FILE_PATH": "",
+    "_FR_GR_OVERFLOW": {
+        "type": "int",
+        "minmax": [
+            1,
+            1
+        ],
+        "step": 0
+    }
+}
+
+```
 
 
 
