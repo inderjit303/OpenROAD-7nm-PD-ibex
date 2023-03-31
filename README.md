@@ -793,6 +793,14 @@ export DFF_LIB_FILE           = $($(CORNER)_DFF_LIB_FILE)
 ![image](https://user-images.githubusercontent.com/99788755/229167435-51653871-0f6c-4789-97e2-bfbe37873457.png)
 
 
+## OpenROAD GUI (BEFORE) 
+
+![image](https://user-images.githubusercontent.com/99788755/229168447-c19a975f-c07d-4313-ad4c-defbf2ec25f4.png)
+
+
+## OpenROAD GUI (AFTER) 
+
+![image](https://user-images.githubusercontent.com/99788755/229168677-aaf379b8-b83b-41d0-a225-961ae02c9ab6.png)
 
 
 
