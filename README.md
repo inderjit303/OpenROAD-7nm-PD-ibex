@@ -509,7 +509,7 @@ Tunable tool and design parameter are adopted from https://vlsicad.ucsd.edu/Publ
 
 ![image](https://user-images.githubusercontent.com/99788755/229158592-f2e097f3-f6d8-4b66-95ce-abbbb259f03e.png)
 
-## **Contents of config.mk BEFORE**
+## **Contents of config.mk (BEFORE)**
 
 ```
 export PLATFORM               = asap7
@@ -528,7 +528,112 @@ export PLACE_DENSITY_LB_ADDON  = 0.20
 export ENABLE_DPO = 0
 ```
 
+## Contents of AutoTuner.json (BEFORE)
 
+```
+{
+    "_SDC_FILE_PATH": "constraint.sdc",
+    "_SDC_CLK_PERIOD": {
+        "type": "float",
+        "minmax": [
+            100,
+            2000
+        ],
+        "step": 0
+    },
+    "CORE_UTILIZATION": {
+        "type": "int",
+        "minmax": [
+            25,
+            100
+        ],
+        "step": 1
+    },
+    "CORE_ASPECT_RATIO": {
+        "type": "float",
+        "minmax": [
+            0.5,
+            2.0
+        ],
+        "step": 0
+    },
+    "CORE_MARGIN": {
+        "type": "int",
+        "minmax": [
+            2,
+            2
+        ],
+        "step": 0
+    },
+    "CELL_PAD_IN_SITES_GLOBAL_PLACEMENT": {
+        "type": "int",
+        "minmax": [
+            0,
+            5
+        ],
+        "step": 1
+    },
+    "CELL_PAD_IN_SITES_DETAIL_PLACEMENT": {
+        "type": "int",
+        "minmax": [
+            0,
+            5
+        ],
+        "step": 1
+    },
+    "_FR_LAYER_ADJUST": {
+        "type": "float",
+        "minmax": [
+            0.1,
+            0.7
+        ],
+        "step": 0
+    },
+    "PLACE_DENSITY_LB_ADDON": {
+        "type": "float",
+        "minmax": [
+            0.0,
+            0.99
+        ],
+        "step": 0
+    },
+    "_PINS_DISTANCE": {
+        "type": "int",
+        "minmax": [
+            1,
+            1
+        ],
+        "step": 0
+    },
+    "CTS_CLUSTER_SIZE": {
+        "type": "int",
+        "minmax": [
+            10,
+            200
+        ],
+        "step": 1
+    },
+    "CTS_CLUSTER_DIAMETER": {
+        "type": "int",
+        "minmax": [
+            20,
+            400
+        ],
+        "step": 1
+    },
+    "_FR_FILE_PATH": "",
+    "_FR_GR_OVERFLOW": {
+        "type": "int",
+        "minmax": [
+            1,
+            1
+        ],
+        "step": 0
+    }
+}
+
+export DFF_LIB_FILE           = $($(CORNER)_DFF_LIB_FIL
+```
 
 
 
