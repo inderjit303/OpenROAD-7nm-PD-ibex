@@ -792,6 +792,9 @@ export DFF_LIB_FILE           = $($(CORNER)_DFF_LIB_FILE)
 
 ![image](https://user-images.githubusercontent.com/99788755/229169019-9f53cf15-af3e-4125-8368-0d1603c81ebc.png)
 
+## Obervations
+- There is marginal reduction in Area < 1% 
+- There is marginal reduction in internal power < 5% 
 
 ## OpenROAD GUI (BEFORE) 
 
